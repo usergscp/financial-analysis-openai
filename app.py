@@ -72,12 +72,13 @@ def update_graph(n):
     """
     
     # Solicitar análisis a OpenAI con el nuevo método
-    response = openai.ChatCompletion.create(
+    response = openai.completions.create(
         model="gpt-3.5-turbo",  # Usar el modelo más adecuado
-        messages=[{"role": "user", "content": prompt}]
+        prompt=prompt,
+        max_tokens=150
     )
 
-    analysis = response['choices'][0]['message']['content'].strip()
+    analysis = response['choices'][0]['text'].strip()
 
     return figure, analysis
 
