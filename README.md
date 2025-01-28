@@ -1,5 +1,19 @@
-<!-- 
-This README file is part of the financial-analysis-openai project.
-Ensure that the file ends with a single newline character to comply with MD047/single-trailing-newline rule.
--->
-# financial-analysis-openai
+# Título del Proyecto
+
+Descripción del proyecto.
+
+## Instalación
+
+Instrucciones de instalación.
+
+## Uso
+
+Instrucciones de uso.
+
+## Contribución
+
+Guía para contribuir.
+
+## Licencia
+
+Información de la licencia.

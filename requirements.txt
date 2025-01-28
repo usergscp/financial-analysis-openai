@@ -2,3 +2,4 @@ dash
 yfinance
 plotly
 openai
+python-dotenv

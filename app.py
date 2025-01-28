@@ -72,7 +72,7 @@ def update_graph(n):
     """
     
     # Solicitar análisis a OpenAI con el nuevo método
-    response = openai.completions.create(
+    response = openai.Completion.create(
         model="gpt-3.5-turbo",  # Usar el modelo más adecuado
         prompt=prompt,
         max_tokens=150
